@@ -1,7 +1,7 @@
 id,motorista,navegador,passouIda,tempoIda,passouVolta,tempoVolta
 1,Felipe,Cristina,false,00:00:00.0,false,00:00:00.0
 3,Juliana,Gustavo,false,00:00:00.0,false,00:00:00.0
-5,Enzo,Alice,false,,false,00:00:00.0
+5,Enzo,Alice,false,00:00:00.0,false,00:00:00.0
 6,Ana,João,false,00:00:00.0,false,00:00:00.0
 7,Larissa,Bruno,false,00:00:00.0,false,00:00:00.0
 10,Luiz,Mariana,false,00:00:00.0,false,00:00:00.0
