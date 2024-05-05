@@ -2,7 +2,7 @@ id,motorista,navegador,modeloCarro,cor,passouIda,tempoIda,passouVolta,tempoVolta
 1,Felipe,Cristina,Toyota Corolla,Prata,false,00:00:00.0,false,00:00:00.0
 3,Renata,Gustavo,Ford Ranger,Branco,false,00:00:00.0,false,00:00:00.0
 5,Enzo,Valentina,Volkswagen Gol,Vermelho,false,00:00:00.0,false,00:00:00.0
-6,Ana,João,Fiat Uno,Preto,false,00:00:00.0,false,00:00:00.0
+6,João,Maria,Fiat Uno,Preto,false,00:00:00.0,false,00:00:00.0
 7,Larissa,Bruno,Chevrolet Onix,Azul,false,00:00:00.0,false,00:00:00.0
 10,Luiz,Mariana,Jeep Renegade,Preto,false,00:00:00.0,false,00:00:00.0
 11,Marina,Rafael,Hyundai HB20,Prata,false,00:00:00.0,false,00:00:00.0
