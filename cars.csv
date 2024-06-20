@@ -1,19 +1,23 @@
 id,motorista,navegador,modeloCarro,cor
-1,Felipe,Cristina,Toyota Corolla,Prata
-3,Renata,Gustavo,Ford Ranger,Branco
-5,Enzo,Valentina,Volkswagen Gol,Vermelho
-6,João,Maria,Fiat Uno,Preto
-7,Larissa,Bruno,Chevrolet Onix,Azul
-10,Luiz,Mariana,Jeep Renegade,Preto
-11,Marina,Rafael,Hyundai HB20,Prata
-12,Fernanda,Lucas,Ford Ka,Vermelho
-14,Carolina,Davi,Chevrolet Prisma,Azul
-16,Julia,Felipe,Fiat Argo,Preto
-18,Ana,Lucas,Volkswagen Polo,Branco
-19,Gustavo,Isabela,Toyota Hilux,Cinza
-20,Luiza,Leonardo,Honda Civic,Azul
-21,Leonardo,Luiza,Renault Kwid,Vermelho
-25,Sara,Mateus,Nissan Versa,Prata
-26,Diego,Natalia,Chevrolet Tracker,Preto
-29,Paulo,Bianca,Volkswagen Virtus,Branco
-31,Mateus,Sofia,Ford EcoSport,Vermelho
+4,Betinho Mariz Pinto,Pedro Mariz Pinto,Subaru,preta
+5,Mariana Gaidzinski,Gustavo Moschen,Discovery,cinza
+6,Pedro Jardim,Nestor Jardim,Pajero Sport,marrom
+7,Paula Nesralla,Gustavo Hoff,Jeep Wrangler,laranja
+8,Daniel Borin,Leticia Iolovitch,Toyola Corolla Cross,cinza grafite
+9,Guilherme Catta-Preta,Keila Kloeckner,,
+10,Debora Duarte,Caio Sbruzzi,Kia Sorento,preta
+11,Marta Hemb,Pedro Henrique Hemb,Volvo,azul
+12,Rafael Borin,Leonardo Abreu,,
+13,Sandro Zilio,Guilherme Tonin,,
+14,Lucas Eichenberg,Maria Claudia Eichenberg,Discovery,branca
+15,Enio do Valle,Patricia Valle,,
+16,Rubens Hemb,Ana Hemb,Subaru,cinza
+17,Suzana Tonin,Vicente Kim,Santa Fé,preta
+18,Fabio Goldschmidt,Martin Goldschmidt,Toyota SW4,preta
+19,Mariana Hertz,Arthur Hertz,Volvo,cinza
+20,Vladimir Poli,Nardila Poli,IX35,prata
+21,Edward Stanton,Nicholas Stanton,BYD,branca
+22,Gina Eichenberg,Tuffy Calil,Jeep Compass,cinza escuro
+23,Luciane Lacerda,Frederico Lacerda,Volvo,
+24,Octavio Bortoncello,Matheus D’Agostin,,
+25,Pedro Schorr,Eduardo de Kroes,Ranger,branca
