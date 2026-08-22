@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rally British Club — Modelos de Dados</title>
+<link rel="icon" href="favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
@@ -199,7 +200,7 @@
 <header class="top">
   <div class="brand">BRITISH CLUB <span>RALLY</span></div>
   <nav>
-    <a href="README.md">Repositório</a>
+    <a href="README.md">Detalhes técnicos</a>
     <a href="privacypolicy.html">Política de Privacidade</a>
     <a href="https://britishclub.com.br/" target="_blank" rel="noopener">britishclub.com.br</a>
   </nav>
@@ -207,15 +208,14 @@
 
 <main>
   <div class="hero">
-    <span class="badge">develop</span>
+    <span class="badge">Modelo</span>
     <h1>Modelos de dados do Rally</h1>
     <p>
-      Este repositório é a fonte de dados usada pelo aplicativo dos juízes e pelo site de apuração
-      de resultados do Rally British Club. Cada edição do rally tem seu próprio branch
-      (<code>Rally67</code>, <code>Rally68</code>, <code>Rally69</code>, ...) com os dados reais
-      daquele evento. O branch <code>develop</code>, mostrado aqui, mantém apenas os
-      <strong>arquivos-modelo</strong> abaixo — o ponto de partida que a organização de cada ano
-      deve preencher com os dados do seu evento.
+      Esta página reúne os arquivos usados pelo aplicativo dos juízes e pelo site de apuração de
+      resultados do Rally British Club. A cada edição do rally, esses arquivos são atualizados com
+      os dados reais daquele ano: carros inscritos, juízes de cada posto e horários de largada.
+      O que você vê abaixo são os <strong>arquivos-modelo</strong> — o ponto de partida que a
+      organização de cada ano deve preencher com os dados do seu evento.
     </p>
   </div>
 
@@ -245,7 +245,7 @@
 
       <div class="card">
         <h3>Hora de saída — Ida <code>horaSaidaIda.txt</code></h3>
-        <p>Horário oficial de largada do primeiro carro no trecho de ida, em UTC (ISO&nbsp;8601).</p>
+        <p>Horário oficial de largada do primeiro carro no trecho de ida, no formato do exemplo abaixo.</p>
         <pre>2000-01-01T08:00:00.000Z</pre>
         <span class="who">Preenchido pela organização</span>
       </div>
@@ -281,18 +281,17 @@
   </section>
 
   <section>
-    <h2>Como preparar um novo evento</h2>
+    <h2>O que fazer a cada novo evento</h2>
     <ol class="steps">
-      <li>Crie um branch a partir de <code>develop</code> com o nome do evento, por exemplo <code>Rally69</code>.</li>
-      <li>Substitua o conteúdo dos arquivos acima pelos dados reais do evento (carros, juízes, horários).</li>
-      <li>Aponte o app e o site de apuração para esse branch (constante de versão em cada projeto).</li>
-      <li>Ao final do evento, sincronize o branch do evento de volta com <code>develop</code> apenas se os modelos em si mudaram — os dados reais do evento permanecem no branch do evento, não em <code>develop</code>.</li>
+      <li>Baixe os arquivos-modelo acima.</li>
+      <li>Preencha com os dados reais do evento: carros inscritos, juízes de cada posto e horários de largada.</li>
+      <li>
+        Para o horário dos juízes, use a ferramenta <strong>Modelos</strong> do site de apuração —
+        ela gera a versão pronta para uso a partir do horário real de cada posto. Não preencha essa
+        coluna manualmente.
+      </li>
+      <li>Envie os arquivos preenchidos para quem cuida da parte técnica do site, para que sejam publicados a tempo do evento.</li>
     </ol>
-    <p class="note">
-      A cifra usada em <strong>Tempo Posto</strong> é uma simples troca de caracteres (ver
-      <code>cipherDates.py</code> e <code>config/ciphers.ts</code> no app dos juízes) — não edite
-      essa coluna manualmente.
-    </p>
   </section>
 </main>
 
