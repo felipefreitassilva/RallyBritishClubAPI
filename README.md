@@ -24,7 +24,7 @@ fetch from here. Everything user-facing, templates included, is handled by
 | `carDetailOptions.json` | `{ showId, showModel, showPeople, showTimePassed }` (booleans) | Controls which car fields the judges' app displays. |
 | `horaSaidaIda.txt` / `horaSaidaVolta.txt` | Single line, ISO 8601 UTC (`2000-01-01T08:00:00.000Z`) | Reference start time for car #0 on that leg, **not** the first real car. Each car departs this time plus its own car number in minutes (car 4 departs 4 minutes after this value). |
 | `juizesIda.csv` / `juizesVolta.csv` | `Posto,Nome,Tempo Posto` | One row per judge; two judges at the same station share a row with `Nome` joined by `&`. `Tempo Posto` is **not** plaintext, see below. |
-| `rally_bc_resultados_ida.csv` / `_volta.csv` / `_geral.csv` | Same format `RallyBritishClubWeb` exports from Resultados Ida/Volta/Gerais | Optional, admin-published. Their mere presence on the event branch is what makes `/Publico` show that tab publicly; add each once results are final and the organization has signed off. |
+| `resultados/rally_bc_resultados_ida.csv` / `_volta.csv` / `_geral.csv` | Same format `RallyBritishClubWeb` exports from Resultados Ida/Volta/Gerais | Optional, admin-published, kept in their own `resultados/` folder so they don't mix with the input files above. Their mere presence on an event branch is what makes `/Resultados` show that tab publicly for that event; add each once results are final and the organization has signed off. `/Resultados` also lets visitors pick past events, reading these same files straight off each event's branch, so they stay in place after the event is over instead of being replaced. |
 
 ### The `Tempo Posto` cipher
 
@@ -44,6 +44,8 @@ version, which is what gets committed here.
    organizer-managed, update it yourself if the judges' app's displayed car fields need to
    change.
 3. Point `rallybritishclub` (`config/remoteURLs.ts`) and `RallyBritishClubWeb`
-   (`src/api/index.ts`) at that branch.
+   (`src/api/index.ts`, `CURRENT_EVENT`) at that branch. In `RallyBritishClubWeb`, also move the
+   previous event's branch name into `PAST_EVENTS` in `src/PublicResultsApp.tsx`, so `/Resultados`
+   keeps showing it as a past event once the new one takes over.
 4. If the templates themselves change, bring that change back to `develop`. The event branch
    otherwise keeps the real data, not `develop`.
