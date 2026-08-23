@@ -24,6 +24,7 @@ fetch from here. Everything user-facing, templates included, is handled by
 | `carDetailOptions.json` | `{ showId, showModel, showPeople, showTimePassed }` (booleans) | Controls which car fields the judges' app displays. |
 | `horaSaidaIda.txt` / `horaSaidaVolta.txt` | Single line, ISO 8601 UTC (`2000-01-01T08:00:00.000Z`) | Reference start time for car #0 on that leg, **not** the first real car. Each car departs this time plus its own car number in minutes (car 4 departs 4 minutes after this value). |
 | `juizesIda.csv` / `juizesVolta.csv` | `Posto,Nome,Tempo Posto` | One row per judge; two judges at the same station share a row with `Nome` joined by `&`. `Tempo Posto` is **not** plaintext, see below. |
+| `rally_bc_resultados_ida.csv` / `_volta.csv` / `_geral.csv` | Same format `RallyBritishClubWeb` exports from Resultados Ida/Volta/Gerais | Optional, admin-published. Their mere presence on the event branch is what makes `/Publico` show that tab publicly; add each once results are final and the organization has signed off. |
 
 ### The `Tempo Posto` cipher
 
