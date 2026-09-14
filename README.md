@@ -23,13 +23,13 @@ fetch from here. Everything user-facing, templates included, is handled by
 | `carros.csv` | `Numero,Motorista,Navegador,Modelo,Cor` | `Modelo`/`Cor` may be blank. |
 | `carDetailOptions.json` | `{ showId, showModel, showPeople, showTimePassed }` (booleans) | Controls which car fields the judges' app displays. |
 | `horaSaidaIda.txt` / `horaSaidaVolta.txt` | Single line, ISO 8601 UTC (`2000-01-01T08:00:00.000Z`) | Reference start time for car #0 on that leg, **not** the first real car. Each car departs this time plus its own car number in minutes (car 4 departs 4 minutes after this value). |
-| `juizesIda.csv` / `juizesVolta.csv` | Headerless; one ciphered hex token per line | Each token decodes to a `Posto,Nome,Tempo Posto` row. Two judges at the same station = two lines on the same post number (the apps merge their names with `&`). The **whole row** is ciphered, not just the time — see below. |
+| `juizesIda.csv` / `juizesVolta.csv` | Headerless; one ciphered hex token per line | Each token decodes to a `Posto,Nome,Tempo Posto` row. Two judges at the same station = two lines on the same post number (the apps merge their names with `&`). The **whole row** is ciphered, not just the time - see below. |
 | `resultados/rally_bc_resultados_ida.csv` / `_volta.csv` / `_geral.csv` | Same format `RallyBritishClubWeb` exports from Resultados Ida/Volta/Gerais | Optional, admin-published, kept in their own `resultados/` folder so they don't mix with the input files above. Their mere presence on an event branch is what makes `/Resultados` show that tab publicly for that event; add each once results are final and the organization has signed off. `/Resultados` also lets visitors pick past events, reading these same files straight off each event's branch, so they stay in place after the event is over instead of being replaced. |
 
 ### The judges cipher
 
 `juizesIda.csv` / `juizesVolta.csv` never contain plaintext. The file is **headerless**; each
-line is a hex token that decodes to one `Posto,Nome,Tempo Posto` row — post number, judge name,
+line is a hex token that decodes to one `Posto,Nome,Tempo Posto` row - post number, judge name,
 and the station time for car #0, all ciphered together.
 
 The key is a per-event **organizer passphrase** ("Senha Organização"), chosen by the
@@ -41,8 +41,8 @@ keystream that XORs each row; the round-trip is `rowCipher` / `rowDecipher` in
 
 `RallyBritishClubWeb`'s "Juízes Ida" / "Juízes Volta" pages produce the file: organizers type
 plaintext rows plus the passphrase and hit *Exportar cifrado*; that headerless ciphered export
-is what gets committed here. Reading the data back — real names and times on *Resultados*, or a
-judge's briefing window in the mobile app — needs the same passphrase (the mobile app takes it
+is what gets committed here. Reading the data back - real names and times on *Resultados*, or a
+judge's briefing window in the mobile app - needs the same passphrase (the mobile app takes it
 as part of the "magic number", `posto<separator><passphrase>`).
 
 Without the passphrase nobody decodes the schedule, including a developer holding all three
