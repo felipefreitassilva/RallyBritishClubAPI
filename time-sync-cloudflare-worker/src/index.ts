@@ -13,6 +13,12 @@
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
-		return new Response("Hello World!");
+    return new Response(JSON.stringify({ now: Date.now() }), {
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "no-store",
+      },
+    });
 	},
 } satisfies ExportedHandler<Env>;
