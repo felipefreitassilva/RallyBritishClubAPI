@@ -1,11 +1,32 @@
-T. Ida,T. Volta,T. Geral,Lugar,Carro,Motorista,Navegador,Modelo,Cor,Ida_J1,Ida_J2,Ida_J3,Ida_J4,Ida_J5,Ida_J6,Volta_J1,Volta_J2,Volta_J3,Volta_J4,Volta_J5
--32,-35,-67,1,9,Fulano Kim,Rodrigo Jardim,Corolla Cross,grafite,-8,-7,-8,4,-7,-6,-4,-9,-7,-10,-5
--27,-4,-31,2,6,Circe Stanton,Ronaldo Sbruzzi,Santa Fé,preta,-7,-10,-5,-6,2,-1,10,-2,-9,2,-5
--5,-23,-28,3,8,Cicrano Freitas,Rogerio Freitas,Sorento,preta,3,-1,7,-8,2,-8,0,-2,-2,-10,-9
--17,-6,-23,4,3,Nicholas Silva,Thomas Jardim,Kicks,prata,9,-4,-3,-9,-1,-9,7,-2,-9,-10,8
--26,4,-22,5,10,Beltrano Jardim,Cristina Jardim,,,9,-8,-7,-9,-2,-9,-3,-8,4,1,10
-4,-14,-10,6,1,Felipe Freitas,Nicolas Silva,Compass,grafite,-1,-6,-3,9,10,-5,0,-4,-3,-5,-2
--24,14,-10,7,7,Duda Kim,Felipe Stanton,Discovery,cinza,3,3,-9,-7,-4,-10,0,4,-5,7,8
-21,-17,4,8,2,Gabriel Stanton,Vicente Sbruzzi,T-Cross,cinza,3,-10,6,6,9,7,8,-3,-3,-9,-10
-15,2,17,9,4,Catarina Silva,Pedro Sbruzzi,Wrangler,laranja,3,-2,9,-1,-2,8,-8,-1,1,5,5
-18,8,26,10,5,Rodrigo Freitas,Lucas Kim,Renegade,grafite,4,-2,10,-3,0,9,-5,10,-6,6,3
+T. Ida,T. Volta,T. Geral,Lugar,Carro,Motorista,Navegador,Modelo,Cor,Ida_J1,Ida_J2,Ida_J3,Ida_J4,Ida_J5,Ida_J6,Ida_J7,Ida_J8,Volta_J1,Volta_J2,Volta_J3,Volta_J4,Volta_J5,Volta_J6,Volta_J7,Volta_J8
+14,9,23,1,12,Sandro Zilio,Guilherme Tonin,Haval,Cinza,5,2,0,0,2,3,2,0,0,0,-1,1,1,-1,0,5
+15,27,42,2,9,Lucas Hemb,Leonardo Hemb,Omoda 5,Preta,-6,2,-2,0,1,0,-4,0,0,1,0,-3,-10,-8,-2,3
+25,27,52,3,1,Rogerio Silva,Rodrigo Freitas,Santa Fé,Prata,0,8,-1,5,4,6,1,0,0,-2,1,-1,-6,-12,3,2
+18,35,53,4,26,Alberto C. Mariz,Pedro Valle,Subaru forester,Preta,5,5,0,3,3,1,1,0,0,1,15,-7,-1,-4,2,5
+29,25,54,5,14,Pietro Reginatto,Vitoria Reginatto,,,5,5,0,3,-12,0,-2,2,-1,-4,1,-4,-4,-4,-2,5
+29,32,61,6,13,Leonardo Fração,Oliver Goldschmidt,Volkswagen,Cinza,-5,3,2,3,-11,3,-1,1,4,-2,5,4,-2,-6,1,8
+46,29,75,7,2,Alberto Guerra,Vladimir Poli,,,17,10,0,4,3,6,4,-2,3,1,1,0,2,11,0,11
+42,38,80,8,24,Gustavo Brun,Debora Brun,TAOS,Prata,11,7,-2,-5,-2,-1,-4,10,3,3,-2,0,-4,9,-1,16
+30,52,82,9,25,Rene Moura,Priscilla Ortiz,Volvo XC90,Preto,-1,4,-3,2,12,1,-2,5,-3,-2,0,-13,-15,-8,-4,7
+31,57,88,10,7,Paula Nesralla,Gustavo Hoff,Jeep,Laranja,4,0,-1,-7,-9,6,1,-3,-7,-4,-6,-29,-4,-1,-2,4
+36,60,96,11,3,Cristina Freitas,Felipe Freitas,Creta,Prateada,8,8,-1,3,-2,1,-6,7,4,-1,-5,-13,6,-7,-3,21
+42,64,106,12,5,Debora Duarte,Caio Sbruzzi,Haval,Prata,9,-7,4,10,-5,5,1,1,4,2,5,-6,-8,-9,21,9
+43,84,127,13,4,Nicolas Kim,Alexandre Platt,Jeep Compass,Preto,20,3,3,2,4,3,3,5,47,3,3,14,7,2,2,6
+42,94,136,14,31,Mauricio Cirne Lima,Santiago Cirne Lima,VW TAOS,Prata,10,6,3,7,6,5,3,2,-2,0,-76,0,7,2,1,6
+87,51,138,15,17,Carolina Alencar,Gustavo Kosnitzer,Jeep Comander,Cinza,-76,2,2,4,1,0,-2,0,1,-1,-2,-18,-6,10,1,12
+109,147,256,16,29,Alessandro Becker,Leonardo Abreu,Commander,Branca,13,0,-1,3,26,6,53,-7,62,-4,21,2,-36,9,-1,12
+34,260,294,17,21,Pedro Bondan Schorr,Ricardo de Kroes,Ranger,Branca,-6,4,4,2,13,3,0,2,1,-2,229,-17,0,-1,2,8
+30,298,328,18,15,Marcelo Luque,Thomas Poli,Suzuki SX4,Azul,10,7,0,1,5,4,-1,2,275,0,4,9,-2,3,2,3
+46,400,446,19,20,Bruno Haussen,Lucia Iolovitch,Bronco,Preto,11,8,-1,6,6,2,5,7,42,4,286,-50,-5,3,1,9
+28,716,744,20,22,Pedro Jardim,Mariana Fredel,,,9,-1,-1,3,11,0,3,0,2,-1,-600,-61,-2,6,-3,41
+115,810,925,21,19,Maria Regina Eichenberg,Fernanda Eichenberg,Eclipse,Preta,32,25,-30,1,5,2,14,-6,-36,1,355,377,-11,14,5,11
+17,973,990,22,27,Andreia Fagherazzi,Patricia Valle,,,4,0,3,-1,5,0,0,-4,3,-2,-600,326,-5,-12,-7,18
+32,1212,1244,23,10,Edmundo Eichenberg,Leohnard Bayer,Toyota SW4,Preta,8,-7,0,8,4,4,0,-1,4,1,2,-3,1,-1,-600,600
+288,1437,1725,24,16,Debora Poli,Nardila Poli,Hyundai IX35,Prata,-41,-28,-33,-39,-31,-21,-43,-52,469,114,100,559,157,-30,6,-2
+82,2142,2224,25,11,Raul Hemb,Pedro Henrique Hemb,Subaru,Azul,28,2,1,-5,-33,6,1,-6,-600,-600,-600,64,71,66,69,72
+50,4800,4850,26,18,Daniel Borin,Laura Borin,Haval GWM,Preto,11,7,2,-1,-9,10,4,6,-600,-600,-600,-600,-600,-600,-600,-600
+160,4800,4960,27,28,Rafael Borin,Bernardo Borin,Jeep Compass,,3,-19,-26,-24,-13,-25,36,-14,-600,-600,-600,-600,-600,-600,-600,-600
+202,4800,5002,28,30,Isabel Hertz,Luciana Borin,,,-4,19,2,72,55,25,22,-3,-600,-600,-600,-600,-600,-600,-600,-600
+531,4800,5331,29,23,Luiza Faria,Duda Medeiros,T-Cross,Preto,0,342,159,-6,-15,0,-6,3,-600,-600,-600,-600,-600,-600,-600,-600
+4800,4800,9600,30,6,Nicolas Kim,Ung Kim,,,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600
+4800,4800,9600,31,8,Felipe Hemb,Ana Maria B. Hemb,,,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600,-600
